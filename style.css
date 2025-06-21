@@ -1,0 +1,242 @@
+
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+.lexend-uniquifier> {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+ 
+.nav{
+    height: 55px;
+    display:inline-flex;
+    background-color: #9290c3;
+    flex-wrap: nowrap;
+    font-family:Lexend;
+    width: 100vw;
+   position: sticky;
+   top: 0px;
+}
+.nav img{
+    height: 50px;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    width: 50%vw;
+}
+
+.right-nav ul li{
+    list-style-type: none;
+    font-size: 16px;
+font-weight: 400;
+
+}
+.right-nav a{
+    text-decoration: none;
+    color: black;
+}
+.right-nav{
+    display:flex;
+
+    justify-content: space-evenly;
+    text-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.options{
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+    flex-wrap: nowrap;
+    margin-left: 30%;
+}
+
+
+.logo{
+    margin-left: 25px;
+}
+.title{
+    margin-left: 20px;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+select,option{
+    background-color: #9290c3;
+    border: none;
+    font-family:Lexend,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+option:hover{
+    background-color: #9290c3;
+}
+.menu{
+    width: 40px;
+}
+
+
+
+@media(min-width:600px)and (max-width:860px){
+    .nav{
+        display: flex;
+    }
+    .exp-amt{
+   visibility:hidden;
+   display: none;
+    }
+    .abt-us{
+        visibility:hidden;
+        display: none; 
+    }
+    .menu{
+        visibility:hidden;
+        display: none;  
+    }
+    .title{
+        visibility:hidden;
+        display: none;  
+    }
+    
+}
+
+@media(min-width:860px){
+    .more-opt{
+  visibility:hidden;
+  display: none;
+   }
+   .menu{
+    visibility:hidden;
+    display: none; 
+   }
+}
+
+@media(max-width:600px){
+    .right-nav li{
+  visibility:hidden;
+  display: none;
+   }
+   .title{
+    visibility:hidden;
+    display: none; 
+   }
+   .right-nav {
+margin-left: 30vw;
+   }
+   .left-nav{
+    margin-right: 20vw;
+   }
+}
+
+
+
+.hero-sec2{
+    background-color:#070f2b;
+}
+/*mech branch*/
+.mech{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-right: 100px;
+}
+.hero-sec2 p{
+    color: white;
+}
+
+/*hero-sec1*/
+.hero-sec1{
+    background-image: url("images/Teams Working Together Clipart Transparent PNG Hd, Team Work Web Concept People Together Connecting Piece Jigsaw Puzzle Business Leadership Partnership Team Metaphor Flat Vector Illustration, Puzzle .jpeg");
+    height: 360px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-sec1 p{
+    font-family: 'Times New Roman', Arial;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+
+
+
+/*cse*/
+.cse{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.hero-sec2{
+    display: flex;
+    flex-direction: column;
+    width: 95rem;
+}
+.hero-sec2 img{
+    border-radius: 50%;
+}
+.all_data{
+    display: flex;
+    justify-content: center;
+    background-color: #070f2b;
+}
+/*alumini heading1*/
+.alumini {
+    height: 100px;
+}
+.alumini p{
+    font-size: 2.5rem;
+    font-family: lexend;
+    margin:24px ;
+}
+
+/*branch name*/
+.heading{
+    height: 100px;
+}
+.heading p{
+    font-size: 1.5rem;
+    font-family: lexend;
+    margin:24px ;
+}
+/*content*/
+
+.content-box{
+    height: 27rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 100px 50px 20px;
+}
+.content-box img{
+    height: 15rem;
+    padding: 0px 12px;
+}
+.name{
+    margin: 0.9rem ;
+    font-size: 0.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9290c3;
+}
+
+
+
+.comp{
+    margin-right: 20px;
+    height: 700px;
+}
+.row{
+    height: 300px;
+    display: flex;
+}
